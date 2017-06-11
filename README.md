@@ -1,4 +1,27 @@
 # Configuration-for-Spring
+A. Let’s Setup Environment
+  1. Tomcat 8.0.37 – Download latest Apache Tomcat from this link.
+  https://tomcat.apache.org/download-80.cgi and then extract file
+
+  2. Make sure you download Eclipse IDE for Java EE Developers (Neon v4.6) – Download link.
+  http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/marsr
+
+  3. Spring 4.3.7 (No download required) – we will use Maven dependency
+
+  4. JDK 1.8 – Download link.
+  https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/
+
+B. Step by step with demo Hello SpringMVC:
+  Step 1: Open Eclipse and create a Dynamic Web Project.
+  Step 2: Convert this project to Maven project
+  Step 3: Open pom.xml file and add below jar dependencies to projec
+  Step 4: Create new Spring Configuration Bean file: /WebContent/WEB-INF/spring-servlet.xml
+  Step 5: Config file web.xml
+  Step 6; Create file hello.jsp
+  Step 7: Create package and add new class Controller
+  Step 8: Setup Tomcat and run project
+
+C. Description:
 - The code in web.xml will map DispatcherServlet with url pattern
 
 - The code in spring-servlet.xml configuration file:
