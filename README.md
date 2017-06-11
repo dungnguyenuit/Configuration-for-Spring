@@ -12,14 +12,14 @@ A. Let’s Setup Environment
   https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/
 
 B. Step by step with demo Hello SpringMVC:
-  Step 1: Open Eclipse and create a Dynamic Web Project.
-  Step 2: Convert this project to Maven project
-  Step 3: Open pom.xml file and add below jar dependencies to projec
-  Step 4: Create new Spring Configuration Bean file: /WebContent/WEB-INF/spring-servlet.xml
-  Step 5: Config file web.xml
-  Step 6; Create file hello.jsp
-  Step 7: Create package and add new class Controller
-  Step 8: Setup Tomcat and run project
+  - Step 1: Open Eclipse and create a Dynamic Web Project.
+  - Step 2: Convert this project to Maven project
+  - Step 3: Open pom.xml file and add below jar dependencies to projec
+  - Step 4: Create new Spring Configuration Bean file: /WebContent/WEB-INF/spring-servlet.xml
+  - Step 5: Config file web.xml
+  - Step 6; Create file hello.jsp
+  - Step 7: Create package and add new class Controller
+  - Step 8: Setup Tomcat and run project
 
 C. Description:
 - The code in web.xml will map DispatcherServlet with url pattern
